@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-10-23 10:59:35.990356",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "part_item",
+  "part_size",
+  "part_weight",
+  "part_material",
+  "quantity",
+  "unit_price",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "part_item",
+   "fieldtype": "Link",
+   "label": "Part Item",
+   "options": "Part QuoteRef"
+  },
+  {
+   "fetch_from": "part_item.part_size",
+   "fieldname": "part_size",
+   "fieldtype": "Data",
+   "label": "Part Size"
+  },
+  {
+   "fetch_from": "part_item.part_weight",
+   "fieldname": "part_weight",
+   "fieldtype": "Data",
+   "label": "Part Weight"
+  },
+  {
+   "fetch_from": "part_item.part_material",
+   "fieldname": "part_material",
+   "fieldtype": "Data",
+   "label": "Part Material"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity"
+  },
+  {
+   "fetch_from": "part_item.unit_price",
+   "fieldname": "unit_price",
+   "fieldtype": "Data",
+   "label": "Unit Price"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-31 12:42:48.563109",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Selected Part QuoRef For Part Quote",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-10-23 13:04:27.227877",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "amount",
+  "payer",
+  "payment_status",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "\u56fd\u5bb6/Country"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "\u91d1\u989d/Amount"
+  },
+  {
+   "fieldname": "payer",
+   "fieldtype": "Data",
+   "label": "\u4ed8\u6b3e\u4eba/Payer"
+  },
+  {
+   "default": "Open",
+   "fieldname": "payment_status",
+   "fieldtype": "Data",
+   "label": "\u6b3e\u9879\u72b6\u6001/Payment Status"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date/\u6b3e\u9879\u65f6\u95f4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-23 14:40:13.671643",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Received Payment",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

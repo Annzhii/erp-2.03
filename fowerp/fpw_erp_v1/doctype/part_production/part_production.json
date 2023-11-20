@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-10-24 16:10:08.981368",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "part_quote_number",
+  "part_quoteref",
+  "quantity",
+  "lead_time",
+  "material_status",
+  "packing_supply_status",
+  "production_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "part_quoteref",
+   "fieldtype": "Data",
+   "label": "Part QuoteRef"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "lead_time",
+   "fieldtype": "Date",
+   "label": "Lead Time"
+  },
+  {
+   "fieldname": "material_status",
+   "fieldtype": "Data",
+   "label": "Material Status"
+  },
+  {
+   "fieldname": "packing_supply_status",
+   "fieldtype": "Data",
+   "label": "Packing Supply Status"
+  },
+  {
+   "fieldname": "production_status",
+   "fieldtype": "Data",
+   "label": "Production Status"
+  },
+  {
+   "fieldname": "part_quote_number",
+   "fieldtype": "Data",
+   "label": "Quote Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-26 14:41:13.882350",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Part Production",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

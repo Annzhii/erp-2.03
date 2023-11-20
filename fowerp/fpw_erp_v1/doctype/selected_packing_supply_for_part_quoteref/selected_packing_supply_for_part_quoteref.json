@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-10-24 12:43:29.005459",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "packing_supply\u5305\u88c5\u6750\u6599",
+  "proportion\u6bd4\u4f8b"
+ ],
+ "fields": [
+  {
+   "fieldname": "packing_supply\u5305\u88c5\u6750\u6599",
+   "fieldtype": "Link",
+   "label": "Packing Supply/\u5305\u88c5\u6750\u6599",
+   "options": "Material"
+  },
+  {
+   "fieldname": "proportion\u6bd4\u4f8b",
+   "fieldtype": "Data",
+   "label": "Proportion/\u6bd4\u4f8b"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-24 12:43:29.005459",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Selected Packing Supply For Part QuoteRef",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

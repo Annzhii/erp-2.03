@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "autoname": "format: baidu-{material_type}-{#####}",
+ "creation": "2023-10-23 16:25:11.057364",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material_name",
+  "material_type",
+  "size",
+  "plastic_grade",
+  "plastic_type",
+  "material",
+  "supplier"
+ ],
+ "fields": [
+  {
+   "fieldname": "material_name",
+   "fieldtype": "Data",
+   "label": "Material Name/\u6750\u6599\u540d\u79f0"
+  },
+  {
+   "fieldname": "material_type",
+   "fieldtype": "Select",
+   "label": "Material Type/\u6750\u6599\u7c7b\u578b",
+   "options": "\nPlastic/\u5851\u6599\nMetal/\u91d1\u5c5e\nPacking Supply/\u5305\u88c5\u7528\u54c1\nOthers/\u5176\u4ed6"
+  },
+  {
+   "default": "0",
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size/\u5c3a\u5bf8"
+  },
+  {
+   "fieldname": "plastic_grade",
+   "fieldtype": "Data",
+   "label": "Plastic Grade/\u5851\u6599\u724c\u53f7"
+  },
+  {
+   "fieldname": "plastic_type",
+   "fieldtype": "Data",
+   "label": "Plastic Type/\u5851\u6599\u7c7b\u578b"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material/\u6750\u8d28"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier/\u4f9b\u5e94\u5546"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-24 11:20:38.723255",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Material",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

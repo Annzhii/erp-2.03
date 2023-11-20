@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Quote-P.#######",
+ "creation": "2023-10-23 11:27:37.297130",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "part_quoteref",
+  "total",
+  "client",
+  "icoterms",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "icoterms",
+   "fieldtype": "Select",
+   "label": "Icoterms",
+   "options": "EXW\nFOB\nCIF\nCFR\nDDU\nDDP"
+  },
+  {
+   "fieldname": "part_quoteref",
+   "fieldtype": "Table",
+   "label": "Part QuoteRef",
+   "options": "Selected Part QuoRef For Part Quote"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-23 15:09:52.035744",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Part Quote",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "autoname": "format:PQR-{created_by}-{YY}-{#####}",
+ "creation": "2023-10-23 09:28:25.940921",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "part_name",
+  "part_image",
+  "part_size",
+  "part_material",
+  "part_weight",
+  "material_table_section",
+  "material_table",
+  "packing_supply_section",
+  "packing_supply",
+  "secondary_operation_section",
+  "secondary_operation",
+  "unit_price",
+  "created_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "part_name",
+   "fieldtype": "Data",
+   "label": "Part Name"
+  },
+  {
+   "fieldname": "part_image",
+   "fieldtype": "Data",
+   "label": "Part Image"
+  },
+  {
+   "fieldname": "part_size",
+   "fieldtype": "Data",
+   "label": "Part Size"
+  },
+  {
+   "fieldname": "part_material",
+   "fieldtype": "Data",
+   "label": "Part Material"
+  },
+  {
+   "fieldname": "part_weight",
+   "fieldtype": "Data",
+   "label": "Part Weight"
+  },
+  {
+   "fieldname": "material_table_section",
+   "fieldtype": "Section Break",
+   "label": "Material Table"
+  },
+  {
+   "fieldname": "material_table",
+   "fieldtype": "Table",
+   "label": "Material Table",
+   "options": "Selected Material For Part QuoteRef"
+  },
+  {
+   "fieldname": "packing_supply_section",
+   "fieldtype": "Section Break",
+   "label": "Packing Supply"
+  },
+  {
+   "fieldname": "packing_supply",
+   "fieldtype": "Table",
+   "label": "Packing Supply",
+   "options": "Selected Packing Supply For Part QuoteRef"
+  },
+  {
+   "fieldname": "unit_price",
+   "fieldtype": "Data",
+   "label": "Unit Price"
+  },
+  {
+   "fieldname": "created_by",
+   "fieldtype": "Data",
+   "label": "Created By"
+  },
+  {
+   "fieldname": "secondary_operation_section",
+   "fieldtype": "Section Break",
+   "label": "Secondary Operation"
+  },
+  {
+   "fieldname": "secondary_operation",
+   "fieldtype": "Table MultiSelect",
+   "label": "Secondary Operation",
+   "options": "Selected Secondary Operation For Part QuoteRef"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-24 14:17:38.554001",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Part QuoteRef",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

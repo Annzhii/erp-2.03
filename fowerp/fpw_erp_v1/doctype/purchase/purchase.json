@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "autoname": "purchase.###",
+ "creation": "2023-10-31 11:24:43.680505",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material",
+  "quantity",
+  "quote_number",
+  "supplier",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "quote_number",
+   "fieldtype": "Data",
+   "label": "Quote Number"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Read Only",
+   "label": "Status",
+   "options": "Draft\nOpen\nClosed"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-17 12:59:43.458684",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Purchase",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

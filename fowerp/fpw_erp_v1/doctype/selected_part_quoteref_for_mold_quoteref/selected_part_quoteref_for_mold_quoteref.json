@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-10-23 10:28:33.942400",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "part_quoteref",
+  "part_size",
+  "part_material",
+  "part_image",
+  "cavity_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "part_quoteref",
+   "fieldtype": "Link",
+   "label": "Part QuoteRef",
+   "options": "Part QuoteRef"
+  },
+  {
+   "fetch_from": "part_quoteref.part_size",
+   "fieldname": "part_size",
+   "fieldtype": "Data",
+   "label": "Part Size"
+  },
+  {
+   "fetch_from": "part_quoteref.part_material",
+   "fieldname": "part_material",
+   "fieldtype": "Data",
+   "label": "Part Material"
+  },
+  {
+   "fieldname": "cavity_number",
+   "fieldtype": "Data",
+   "label": "Cavity Number"
+  },
+  {
+   "fetch_from": "part_quoteref.part_image",
+   "fieldname": "part_image",
+   "fieldtype": "Data",
+   "label": "Part Image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-23 15:17:53.033233",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Selected Part QuoteRef For Mold QuoteRef",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

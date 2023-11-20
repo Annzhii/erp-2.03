@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "autoname": "format:MQR-{created_by}-{YY}-{#####}",
+ "creation": "2023-10-23 10:07:42.619166",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "created_by",
+  "section_break_yvwdx",
+  "part_item",
+  "mold_material",
+  "cavity_number",
+  "runner_type",
+  "gate_type",
+  "mold_size",
+  "mold_weight",
+  "mold_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "mold_material",
+   "fieldtype": "Data",
+   "label": "Mold Material"
+  },
+  {
+   "fieldname": "cavity_number",
+   "fieldtype": "Data",
+   "label": "Cavity Number"
+  },
+  {
+   "fieldname": "runner_type",
+   "fieldtype": "Data",
+   "label": "Runner Type"
+  },
+  {
+   "fieldname": "gate_type",
+   "fieldtype": "Data",
+   "label": "Gate Type"
+  },
+  {
+   "fieldname": "mold_size",
+   "fieldtype": "Data",
+   "label": "Mold Size"
+  },
+  {
+   "fieldname": "mold_weight",
+   "fieldtype": "Data",
+   "label": "Mold Weight"
+  },
+  {
+   "fieldname": "mold_price",
+   "fieldtype": "Data",
+   "label": "Mold Price"
+  },
+  {
+   "fieldname": "created_by",
+   "fieldtype": "Read Only",
+   "label": "Created By"
+  },
+  {
+   "fieldname": "part_item",
+   "fieldtype": "Table",
+   "label": "Part Item",
+   "options": "Selected Part QuoteRef For Mold QuoteRef"
+  },
+  {
+   "fieldname": "section_break_yvwdx",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-23 15:13:14.164574",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Mold QuoteRef",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

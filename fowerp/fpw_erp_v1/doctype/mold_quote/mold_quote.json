@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Quote-M.#######",
+ "creation": "2023-10-23 15:09:59.728320",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mold_item",
+  "total",
+  "cient",
+  "icoterms",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "mold_item",
+   "fieldtype": "Table",
+   "label": "Mold Item",
+   "options": "Selected Mold QuoteRef For Mold Quote"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "cient",
+   "fieldtype": "Data",
+   "label": "Cient"
+  },
+  {
+   "fieldname": "icoterms",
+   "fieldtype": "Select",
+   "label": "Icoterms",
+   "options": "EXW\nFOB\nCIF\nCFR\nDDU\nDDP"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-23 15:09:59.728320",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Mold Quote",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
