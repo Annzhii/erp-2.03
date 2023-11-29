@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-23 15:50:49.283188",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u4f9b\u5e94\u5546\u540d\u79f0",
+  "\u901a\u8baf\u5730\u5740",
+  "\u8054\u7cfb\u4eba",
+  "\u7535\u8bdd",
+  "\u4ea7\u54c1\u7c7b\u578b",
+  "\u5907\u6ce8"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u4f9b\u5e94\u5546\u540d\u79f0",
+   "fieldtype": "Data",
+   "label": "\u4f9b\u5e94\u5546\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u901a\u8baf\u5730\u5740",
+   "fieldtype": "Data",
+   "label": "\u901a\u8baf\u5730\u5740"
+  },
+  {
+   "fieldname": "\u8054\u7cfb\u4eba",
+   "fieldtype": "Data",
+   "label": "\u8054\u7cfb\u4eba"
+  },
+  {
+   "fieldname": "\u7535\u8bdd",
+   "fieldtype": "Data",
+   "label": "\u7535\u8bdd"
+  },
+  {
+   "fieldname": "\u4ea7\u54c1\u7c7b\u578b",
+   "fieldtype": "Data",
+   "label": "\u4ea7\u54c1\u7c7b\u578b"
+  },
+  {
+   "fieldname": "\u5907\u6ce8",
+   "fieldtype": "Data",
+   "label": "\u5907\u6ce8"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-23 15:50:49.283188",
+ "modified_by": "Administrator",
+ "module": "FPW ERP V1",
+ "name": "Supplier List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

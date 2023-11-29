@@ -11,9 +11,12 @@
   "part_quoteref",
   "quantity",
   "lead_time",
-  "material_status",
-  "packing_supply_status",
-  "production_status"
+  "supplier",
+  "unit_price",
+  "total",
+  "status",
+  "delivery_date",
+  "delivery_quantity"
  ],
  "fields": [
   {
@@ -32,29 +35,46 @@
    "label": "Lead Time"
   },
   {
-   "fieldname": "material_status",
-   "fieldtype": "Data",
-   "label": "Material Status"
-  },
-  {
-   "fieldname": "packing_supply_status",
-   "fieldtype": "Data",
-   "label": "Packing Supply Status"
-  },
-  {
-   "fieldname": "production_status",
-   "fieldtype": "Data",
-   "label": "Production Status"
-  },
-  {
    "fieldname": "part_quote_number",
    "fieldtype": "Data",
    "label": "Quote Number"
+  },
+  {
+   "fieldname": "unit_price",
+   "fieldtype": "Data",
+   "label": "Unit Price"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier List"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "default": "Dfrat",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "delivery_date",
+   "fieldtype": "Date",
+   "label": "Delivery Date"
+  },
+  {
+   "fieldname": "delivery_quantity",
+   "fieldtype": "Data",
+   "label": "Delivery Quantity"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-26 14:41:13.882350",
+ "modified": "2023-11-29 15:29:57.993731",
  "modified_by": "Administrator",
  "module": "FPW ERP V1",
  "name": "Part Production",

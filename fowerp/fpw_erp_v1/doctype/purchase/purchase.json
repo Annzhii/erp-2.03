@@ -8,21 +8,24 @@
  "engine": "InnoDB",
  "field_order": [
   "material",
+  "description",
   "quantity",
   "quote_number",
   "supplier",
-  "status"
+  "status",
+  "delivery_date\u5230\u8d27\u65f6\u95f4",
+  "delivery_quantity\u5230\u8d27\u6570\u91cf"
  ],
  "fields": [
   {
    "fieldname": "material",
    "fieldtype": "Data",
-   "label": "Material"
+   "label": "Material/\u6750\u6599"
   },
   {
    "fieldname": "quantity",
    "fieldtype": "Int",
-   "label": "Quantity"
+   "label": "Quantity/\u6570\u91cf"
   },
   {
    "fieldname": "quote_number",
@@ -31,20 +34,35 @@
   },
   {
    "fieldname": "supplier",
-   "fieldtype": "Data",
-   "label": "Supplier"
+   "fieldtype": "Link",
+   "label": "Supplier/\u4f9b\u5e94\u5546",
+   "options": "Supplier List"
   },
   {
    "default": "Draft",
    "fieldname": "status",
    "fieldtype": "Read Only",
-   "label": "Status",
-   "options": "Draft\nOpen\nClosed"
+   "label": "Status/\u72b6\u6001"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description/\u63cf\u8ff0"
+  },
+  {
+   "fieldname": "delivery_date\u5230\u8d27\u65f6\u95f4",
+   "fieldtype": "Data",
+   "label": "Delivery Date/\u5230\u8d27\u65f6\u95f4"
+  },
+  {
+   "fieldname": "delivery_quantity\u5230\u8d27\u6570\u91cf",
+   "fieldtype": "Data",
+   "label": "Delivery Quantity/\u5230\u8d27\u6570\u91cf"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-17 12:59:43.458684",
+ "modified": "2023-11-23 16:20:49.588687",
  "modified_by": "Administrator",
  "module": "FPW ERP V1",
  "name": "Purchase",
